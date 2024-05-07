@@ -38,6 +38,7 @@ for i in dimers dlpoly dplessacc dpunstable monomers tetramers trimers vle ; do
     nframe=$(echo "${nframe} / 200" | bc)
     python nep_fps_select_all.py 24 ${i}.xyz 0.02 ${nframe} ${i}-0.02-${nframe}
 done
+cat selected-dimers-0.02-164.xyz selected-dlpoly-0.02-240.xyz selected-dplessacc-0.02-14.xyz selected-dpunstable-0.02-180.xyz selected-monomers-0.02-39.xyz selected-tetramers-0.02-320.xyz selected-trimers-0.02-67.xyz selected-vle-0.02-19.xyz > train.xyz
 ```
 
 Based on the train.xyz (MB-pol of Full training set) and NEP-MB-pol-1, we can get the outline structure from the following command:
@@ -48,6 +49,21 @@ cat train-fps-equal.xyz findout-mb-pol-energy.xyz findout-mb-pol-force.xyz > tra
 nep
 python plot_nep_def.py 3
 ```
+
+| Datasets | fps_mindis | Number |
+| --- | --- | --- |
+| dimers     | 0.02 | 164 |
+| dlpoly     | 0.02 | 240 |
+| dplessacc  | 0.02 | 14  |
+| dpunstable | 0.02 | 180 |
+| monomers   | 0.02 | 39  |
+| tetramers  | 0.02 | 320 |
+| trimers    | 0.02 | 67  |
+| vle        | 0.02 | 19  |
+| findout-force  |  | 139 |
+| findout-energy |  | 68  |
+
+**Total: 1250**
 
 ### The second generation streamlined training set of NEP-SCAN
 
