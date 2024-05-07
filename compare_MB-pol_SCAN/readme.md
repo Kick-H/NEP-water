@@ -67,11 +67,24 @@ python plot_nep_def.py 3
 
 ### The second generation streamlined training set of NEP-SCAN
 
+```
+python nep_fps_select_all.py 24 0.02 SCAN-0.02
+```
+
 Based on the train.xyz (SCAN of Full training set) and NEP-SCAN-1, we can get the outline structure from the following command:
 ```
-python get_outline.py $/01-MB-pol/train.xyz $/01-MB-pol/force_train.out 200 mb-pol-force
-python get_outline.py $/01-MB-pol/train.xyz $/01-MB-pol/energy_train.out 68 mb-pol-energy
-cat train-fps-equal.xyz findout-mb-pol-energy.xyz findout-mb-pol-force.xyz > train.xyz
+# echo "prediction 1" >> nep.in
+python get_outline.py ../../01-All/02-SCAN/train.xyz ../../01-All/02-SCAN/force_train.out 200 scan-force
+python get_outline.py ../../01-All/02-SCAN/train.xyz ../../01-All/02-SCAN/energy_train.out 80 scan-energy
+cat selected-SCAN-0.02.xyz findout-scan-force.xyz findout-scan-energy.xyz > train.xyz
 nep
 python plot_nep_def.py 3
 ```
+
+| Datasets | fps_mindis | Number |
+| --- | --- | --- |
+| fps     | 0.02 | 358 |
+| findout-force  |  | 163 |
+| findout-energy |  | 80  |
+
+**Total: 601**
