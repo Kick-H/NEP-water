@@ -93,4 +93,8 @@ python plot_nep_def.py 3
 
 [1] [H2O-SCAN0](https://www.aissquare.com/datasets/detail?pageType=datasets&name=H2O-SCAN0&id=18)
 
+<img src="Figures/H2O-SCAN0-force.png" width=300 height=300>
+
 [2] [H2O-DPLR](https://www.aissquare.com/datasets/detail?pageType=datasets&name=H2O-DPLR&id=17)
+
+<img src="Figures/H2O-DPLR-force.png" width=300 height=300>
