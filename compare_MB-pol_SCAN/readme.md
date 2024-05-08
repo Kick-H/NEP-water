@@ -4,7 +4,7 @@ The training sets given by SCAN and MB-pol for NEP training will be provided her
 
 ## Datasets
 
-The datasets can be obtained separately from the following links: [MB-pol](https://doi.org/10.5281/zenodo.7577034) (J. Chem. Phys. 158, 084111 (2023)) [SCAN](https://www.aissquare.com/datasets/detail?pageType=datasets&name=H2O-Phase-Diagram&id=1) (Phys. Rev. Lett. 126, 236001 – 2021).
+The datasets can be obtained separately from the following links: [MB-pol](https://doi.org/10.5281/zenodo.7577034) (J. Chem. Phys. 158, 084111 – 2023) [SCAN](https://www.aissquare.com/datasets/detail?pageType=datasets&name=H2O-Phase-Diagram&id=1) (Phys. Rev. Lett. 126, 236001 – 2021).
 
 ## Obtaining the first generation NEP-water potential function
 
