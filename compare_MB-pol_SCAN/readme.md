@@ -88,3 +88,9 @@ python plot_nep_def.py 3
 | findout-energy |  | 80  |
 
 **Total: 601**
+
+### NEP-SCAN to prediction the other SCAN datasets.
+
+[1] [H2O-SCAN0](https://www.aissquare.com/datasets/detail?pageType=datasets&name=H2O-SCAN0&id=18)
+
+[2] [H2O-DPLR](https://www.aissquare.com/datasets/detail?pageType=datasets&name=H2O-DPLR&id=17)
