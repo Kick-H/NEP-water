@@ -77,7 +77,7 @@ def main():
 
     # The input file can be any file format that Ovito can read, ref from
     # https://www.ovito.org/docs/current/reference/file_formats/file_formats_input.html#file-formats-input
-    indump = "../03-GPUMD/dump.xyz"    # *.xyz *.exyz *.lammpstrj XDATCAR et. al.
+    indump = "../gpumd/dump.xyz"    # *.xyz *.exyz *.lammpstrj XDATCAR et. al.
 
     outrdf = "./rdf.dat"
     cf = 8.0           # cutoff with units Angstrom
