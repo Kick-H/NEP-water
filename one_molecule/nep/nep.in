@@ -1,0 +1,12 @@
+version              4
+type                 2 O H
+cutoff               6 4
+n_max                9 7
+l_max                4 2
+basis_size           9 7
+neuron               100
+lambda_1             0.05
+lambda_2             0.05
+batch                1000
+population           50
+generation           10000
