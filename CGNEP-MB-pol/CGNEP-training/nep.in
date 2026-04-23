@@ -1,0 +1,14 @@
+version       4
+type          1 W
+cutoff        6 4
+n_max         9 7
+l_max         4 2 0
+basis_size    12 8
+neuron        60
+lambda_e      0.2
+lambda_f      1
+lambda_v      0.2
+batch         1000
+population    50
+generation    100000
+save_potential 500 1
